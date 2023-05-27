@@ -1,7 +1,7 @@
 
 # main.py
 
-def addition(a, b):
+def test_addition(a, b):
     return a + b
 
 
