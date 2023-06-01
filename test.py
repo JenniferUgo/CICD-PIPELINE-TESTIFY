@@ -11,7 +11,7 @@ class TestMain(unittest.TestCase):
 
     def test_subtraction(self):
         self.assertEqual(main.subtraction(8, 2), 6, "should be 6")
-        self.assertEqual(main.subtraction(5, 5), 0, "should be 0")
+        self.assertEqual(main.subtraction(6, 5), 1, "should be 1")
         self.assertEqual(main.subtraction(40, 20), 20, "should be 20")
         self.assertEqual(main.subtraction(9, 4), 5, "should be 5")
 
